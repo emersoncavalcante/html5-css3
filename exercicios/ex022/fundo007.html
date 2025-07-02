@@ -1,28 +1,35 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Astronauta</title>
+    <title>Hierarquia simples</title>
+
     <style>
-        body {
+        div#fora {
             height: 95vh;
-            background-image: url(imagens/espaco.jpg);
+            background-color: blueviolet;
             position: relative;
         }
-        img {
+
+        div#dentro {
+            height: 200px;
             width: 300px;
+            background-color: yellow;
             position: absolute;
             left: 50%;
             top: 50%;
             transform: translate(-50%, -50%);
-
-
         }
+        
     </style>
 </head>
 <body>
-    <img src="imagens/astronauta.png" alt="Astronauta">
+    <div id="fora">
+        <div id="dentro">
+
+        </div>
+    </div>
     
 </body>
 </html>
