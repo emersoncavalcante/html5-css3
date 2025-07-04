@@ -1,0 +1,49 @@
+     @font-face {
+        font-family: 'titulo';
+        src: url(fontes/PassionOne-Regular.ttf);
+        }
+
+
+     @font-face {
+        font-family: 'cordel';
+        src: url(fontes/Sriracha-Regular.ttf);
+     }   
+     
+     body {
+            background-image: url(imagens/background001.jpg);
+
+            margin: 0px;
+            padding: 0px;
+
+        }
+
+        header {
+           background-color: black;
+           height: 220px;
+        }
+
+        header p {
+            color: white;
+
+        }
+
+
+        h1 {
+            font-family: titulo;
+            margin: 0px;
+            color: white;
+            text-align: center;
+            font-size: 5em;
+            padding-top: 50px;
+        }
+
+    
+
+        p {
+            width: 100vh;
+            height: 300px;
+            background-color: white;
+            font-family: cordel;
+            
+        }
+
