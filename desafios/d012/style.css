@@ -1,4 +1,6 @@
-     @font-face {
+    @charset "UTF-8";
+    
+    @font-face {
         font-family: 'titulo';
         src: url(fontes/PassionOne-Regular.ttf);
         }
@@ -10,40 +12,84 @@
      }   
      
      body {
-            background-image: url(imagens/background001.jpg);
+            
 
             margin: 0px;
             padding: 0px;
 
         }
 
+        a {
+            text-decoration: none;
+            color: white;
+            
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
         header {
            background-color: black;
            height: 220px;
+           margin-bottom: 10px;
         }
 
         header p {
+            background-color: black;
             color: white;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 0px;
+            font-size: 1em;
 
         }
 
 
         h1 {
             font-family: titulo;
-            margin: 0px;
             color: white;
             text-align: center;
-            font-size: 5em;
+            font-size: 6em;
             padding-top: 50px;
+            margin: 0px;
         }
 
     
 
         p {
-            width: 100vh;
-            height: 300px;
-            background-color: white;
             font-family: cordel;
+            margin: 10px;
+            font-size: 2em;
+            padding: 30px;
             
         }
 
+        div > p {
+            color: white;
+            display: block;
+            background-color: rgba(0, 0, 0, 0.459);
+            margin: 10px;
+            padding: 10px;
+            width: 400px;
+        }
+
+        div {
+            padding: 30px;
+            height: 500px;
+            background-color: black;
+            
+
+        }
+
+        div#flor {
+            background: url(imagens/background001.jpg) center center no-repeat fixed;
+        }
+
+        div#folhas {
+            background: url(imagens/background002.jpg) center center no-repeat fixed;
+        }
+
+        section {
+            background-color: white;
+        }
